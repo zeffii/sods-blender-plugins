@@ -9,7 +9,7 @@ bl_info = {
    "tracker_url":	"https://code.google.com/p/sods-blender-plugins/",
    "support":		'COMMUNITY',
    "category":		"Import-Export",
-   "Anim stuff": "RodLima http://www.facebook.com/rod.lima.96?ref=tn_tnmn"
+   "Anim stuff":  "RodLima http://www.facebook.com/rod.lima.96?ref=tn_tnmn"
    }
 
 import bpy, os, struct, time
