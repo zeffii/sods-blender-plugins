@@ -6,4 +6,6 @@ http://www.gnu.org/licenses/lgpl.html
 
 ### Purpose of this repo
 
-make pep8 compliant and fix a possible bug that prevents the addon from being useful in python 3.4
+- make pep8 compliant
+- fix bug in v4 of the bl_info
+- fix a possible bug that prevents the addon from being useful in python 3.4
