@@ -1,5 +1,5 @@
 bl_info = {
-    "name":      "Zelda64 Importer",
+    "name":          "Zelda64 Importer",
     "author":        "SoulofDeity",
     "blender":       (2, 6, 0),
     "location":      "File > Import-Export",
