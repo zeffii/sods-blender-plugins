@@ -596,10 +596,10 @@ class F3DZEX:
             if (
                 (data[i] == 0) and (data[i + 1] > 1) and
                 (data[i + 2] == 0) and (data[i + 3] == 0) and
-                (data[i + 4] == 0x06) and (
-                    ((data[i + 5] << 16) | (data[i + 6] << 8) | data[i + 7]) < len(data)) and
-                    (data[i + 8] == 0x06) and (
-                        ((data[i + 9] << 16) | (data[i + 10] << 8) | data[i + 11]) < len(data)) and
+                (data[i + 4] == 0x06) and
+                (((data[i + 5] << 16) | (data[i + 6] << 8) | data[i + 7]) < len(data)) and
+                (data[i + 8] == 0x06) and
+                (((data[i + 9] << 16) | (data[i + 10] << 8) | data[i + 11]) < len(data)) and
                     (data[i + 14] == 0) and (data[i + 15] == 0)):
 
                 print("        Anims found at %08X" % i, "Frames:", data[i + 1] & 0x00FFFFFF)
