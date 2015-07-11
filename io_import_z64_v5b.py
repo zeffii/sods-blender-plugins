@@ -99,7 +99,7 @@ class Tile:
                 h <<= 1
 
             # file = open(fpath + "/textures/%08X.tga" % self.data, 'wb')
-            file = open(os.path.join(fpath, "textures", "%08X.tga" % self.data, 'wb'))
+            file = open(os.path.join(fpath, "textures", "%08X.tga" % self.data), 'wb')
 
             if self.texFmt == 0x40 or self.texFmt == 0x48 or self.texFmt == 0x50:
                 file.write(pack("<BBBHHBHHHHBB", 0, 1, 1, 0, 256, 24, 0, 0, w, h, 8, 0))
