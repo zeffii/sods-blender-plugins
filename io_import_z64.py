@@ -1,7 +1,7 @@
 bl_info = {
     "name":          "Zelda64 Importer",
     "author":        "SoulofDeity",
-    "blender":       (2, 6, 0),
+    "blender":       (2, 7, 5),
     "location":      "File > Import-Export",
     "description":   "Import Zelda64",
     "warning":       "",
@@ -11,6 +11,8 @@ bl_info = {
     "category":      "Import-Export",
     "Anim stuff":    "RodLima http://www.facebook.com/rod.lima.96?ref=tn_tnmn"
 }
+
+# os independant code introduced July 2015 - zeffii
 
 import os
 import struct
